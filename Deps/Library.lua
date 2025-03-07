@@ -1122,7 +1122,7 @@ do
 
 			NewButton.Parent = Page.Window.Elements.TabHolder
 			
-			local NewPage = Instance.new("ScrollingFrame")
+			local NewPage = Instance.new("Frame")
 			NewPage.Name = "NewPage"
 			NewPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			NewPage.BackgroundTransparency = 1
@@ -1192,7 +1192,7 @@ do
 			WAccent.Size = UDim2.new(1, 0, 0, 1)
 			WAccent.Parent = WeaponInline
 
-			local Holder = Instance.new("Frame")
+			local Holder = Instance.new("ScrollingFrame")
 			Holder.Name = "Holder"
 			Holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Holder.BackgroundTransparency = 1
@@ -1200,6 +1200,7 @@ do
 			Holder.BorderSizePixel = 0
 			Holder.Position = UDim2.new(0, 0, 0, 2)
 			Holder.Size = UDim2.new(1, 0, 1, -2)
+			Holder.ClipsDescendants = true
 
 			local UIListLayout = Instance.new("UIListLayout")
 			UIListLayout.Name = "UIListLayout"
