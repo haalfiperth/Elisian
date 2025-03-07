@@ -1131,7 +1131,6 @@ do
 			NewPage.Position = UDim2.new(0, 6, 0, 6)
 			NewPage.Size = UDim2.new(1, -12, 1, -12)
 			NewPage.Visible = false
-			NewPage.ClipsDescendants = true
 			NewPage.Parent = Page.Window.Elements.Holder
 
 			local Left = Instance.new("Frame")
@@ -1472,6 +1471,7 @@ do
 			SectionInline.BorderSizePixel = 0
 			SectionInline.Position = UDim2.new(0, 1, 0, 1)
 			SectionInline.Size = UDim2.new(1, -2, 1, -2)
+			SectionInline.ClipsDescendants = true
 
 			local Accent = Library:NewInstance("Frame", true)
 			Accent.Name = "Accent"
