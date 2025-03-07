@@ -1122,7 +1122,7 @@ do
 
 			NewButton.Parent = Page.Window.Elements.TabHolder
 			
-			local NewPage = Instance.new("Frame")
+			local NewPage = Instance.new("ScrollingFrame")
 			NewPage.Name = "NewPage"
 			NewPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			NewPage.BackgroundTransparency = 1
