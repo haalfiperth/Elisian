@@ -1131,6 +1131,7 @@ do
 			NewPage.Position = UDim2.new(0, 6, 0, 6)
 			NewPage.Size = UDim2.new(1, -12, 1, -12)
 			NewPage.Visible = false
+			NewPage.ClipsDescendants = true
 			NewPage.Parent = Page.Window.Elements.Holder
 
 			local Left = Instance.new("Frame")
@@ -1141,7 +1142,6 @@ do
 			Left.BorderSizePixel = 0
 			Left.Size = UDim2.new(0.5, -4, 1, 0)
 			Left.ZIndex = 2
-			Left.ClipsDescendants = true
 
 			local UIListLayout = Instance.new("UIListLayout")
 			UIListLayout.Name = "UIListLayout"
@@ -1159,7 +1159,6 @@ do
 			Right.BorderSizePixel = 0
 			Right.Position = UDim2.new(0.5, 4, 0, 0)
 			Right.Size = UDim2.new(0.5, -4, 1, 0)
-			Right.ClipsDescendants = true
 
 			local UIListLayout1 = Instance.new("UIListLayout")
 			UIListLayout1.Name = "UIListLayout"
