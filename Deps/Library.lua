@@ -1133,7 +1133,7 @@ do
 			NewPage.Visible = false
 			NewPage.Parent = Page.Window.Elements.Holder
 
-			local Left = Instance.new("ScrollingFrame")
+			local Left = Instance.new("Frame")
 			Left.Name = "Left"
 			Left.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Left.BackgroundTransparency = 1
@@ -1150,7 +1150,7 @@ do
 
 			Left.Parent = NewPage
 
-			local Right = Instance.new("ScrollingFrame")
+			local Right = Instance.new("Frame")
 			Right.Name = "Right"
 			Right.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Right.BackgroundTransparency = 1
@@ -1371,7 +1371,7 @@ do
 			NewPage.Visible = false
 			NewPage.Parent = Weapon.Page.Window.Elements.Holder
 
-			local Left = Instance.new("ScrollingFrame")
+			local Left = Instance.new("Frame")
 			Left.Name = "Left"
 			Left.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Left.BackgroundTransparency = 1
@@ -1388,7 +1388,7 @@ do
 
 			Left.Parent = NewPage
 
-			local Right = Instance.new("ScrollingFrame")
+			local Right = Instance.new("Frame")
 			Right.Name = "Right"
 			Right.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Right.BackgroundTransparency = 1
