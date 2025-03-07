@@ -1133,7 +1133,7 @@ do
 			NewPage.Visible = false
 			NewPage.Parent = Page.Window.Elements.Holder
 
-			local Left = Instance.new("ScrollingFrame")
+			local Left = Instance.new("Frame")
 			Left.Name = "Left"
 			Left.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Left.BackgroundTransparency = 1
@@ -1141,6 +1141,7 @@ do
 			Left.BorderSizePixel = 0
 			Left.Size = UDim2.new(0.5, -4, 1, 0)
 			Left.ZIndex = 2
+			Left.ClipsDescendants = true
 
 			local UIListLayout = Instance.new("UIListLayout")
 			UIListLayout.Name = "UIListLayout"
@@ -1150,7 +1151,7 @@ do
 
 			Left.Parent = NewPage
 
-			local Right = Instance.new("ScrollingFrame")
+			local Right = Instance.new("Frame")
 			Right.Name = "Right"
 			Right.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Right.BackgroundTransparency = 1
@@ -1158,6 +1159,7 @@ do
 			Right.BorderSizePixel = 0
 			Right.Position = UDim2.new(0.5, 4, 0, 0)
 			Right.Size = UDim2.new(0.5, -4, 1, 0)
+			Right.ClipsDescendants = true
 
 			local UIListLayout1 = Instance.new("UIListLayout")
 			UIListLayout1.Name = "UIListLayout"
