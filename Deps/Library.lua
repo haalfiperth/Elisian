@@ -1506,6 +1506,7 @@ do
 			SectionContent.BorderSizePixel = 0
 			SectionContent.Position = UDim2.new(0, 4, 0, 25)
 			SectionContent.Size = UDim2.new(1, -8, 0, 0)
+			SectionContent.ClipsDescendants = true
 
 			local UIListLayout = Instance.new("UIListLayout")
 			UIListLayout.Name = "UIListLayout"
