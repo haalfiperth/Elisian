@@ -2213,6 +2213,10 @@ do
 				end
 			end)
 			--
+			function Slider:SetVisible(Bool)
+				NewSlider.Visible = Bool
+			end
+			--
 			function Slider:Set(Value)
 				Set(Value)
 			end
